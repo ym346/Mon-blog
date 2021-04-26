@@ -1,0 +1,59 @@
+body{
+	color: #000000; /* color permet de changer la couleur de notre texte. On pourra utiliser le nom anglais d'une couleur, son code hexadécimal #, ou encore le code RGB. */
+	background-color: rgb(255,250,255); /* background-color permet de changer la couleur de fond de nos éléments*/
+	font-family:cursive; /* font-family permet de changer la police de notre site, c'est à dire le style d'écriture. On peut choisir plusieurs valeurs entre serif, sans-serif, fantasy, cursive, et monospace. */
+	font-size:15px; /* font-size permet de modifier la taille des lettres. */
+	line-height:20px; /* line-height permet de modifier l'espace qu'il y a entre deux lignes de texte. */
+	text-align:center; /* Grâce à text-align, il est possible de changer la position du texte en le mettant au centre avec la valeur center, à gauche avec left et à droite avec la valeur right. */
+	
+}
+
+
+h1{
+	color :#9BD6E2;
+	font-family:sans-serif;
+	font-variant:small-caps; /* font-variant, avec pour valeur small-caps permet de transformer toutes les lettres en petites majuscules. */
+	letter-spacing:2px; /* pour pouvoir augmenter l'espace entre les lettres, on utilise la propriété letter-spacing. */
+	border:dotted;
+}
+
+h2{
+	color :#9BD6E2;
+	font-weight:lighter; /* Grâce à font-weight, il est possible de modifier l'épaisseur des lettres, lighter pour les affiner, et bolder pour les épaissir. */
+}
+
+a{
+	color:#9BD6E2;
+	text-decoration:none; /* le code text-decoration avec pour valeur none, permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens */
+}
+
+a:hover{ /* Grâce à cette sélection il est possible de modifier la couleur de notre lien lorsque l'on passe notre souris dessus */
+	color:#D89BE2;
+}
+
+p{
+	line-height:30px;
+}
+
+div{
+	margin:25px 300px; /* margin correspond à la marge extérieure */
+	padding:20px; /* padding correspond à la marge intérieure */
+	border-radius:15px; /* border-radius permet d'arrondir les angles de nos bords */
+	box-shadow:10px 10px 20px #9BD6E2 ; /* box-shadow permet d'ajouter une ombre à nos éléments */
+
+}
+
+iframe{
+	border-radius:10px;
+}
+
+img{
+	border-radius:10px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
